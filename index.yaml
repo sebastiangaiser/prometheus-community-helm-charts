@@ -45826,6 +45826,37 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.79.2
+    created: "2025-02-06T14:21:39.638081759Z"
+    description: Prometheus Operator Admission Webhook
+    digest: 981a739b87213275e0e8231f42c57d1ac9da2d84a7b5aee3e4b1be2ff8d175e9
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
+    keywords:
+    - admission
+    - monitoring
+    - prometheus-operator
+    - webhook
+    maintainers:
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-operator-admission-webhook
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
+    type: application
+    urls:
+    - https://github.com/sebastiangaiser/prometheus-community-helm-charts/releases/download/prometheus-operator-admission-webhook-0.18.2/prometheus-operator-admission-webhook-0.18.2.tgz
+    version: 0.18.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/prometheus-operator
+    apiVersion: v2
+    appVersion: 0.79.2
     created: "2025-01-31T08:14:15.052707817Z"
     description: Prometheus Operator Admission Webhook
     digest: 6e01590c4dc0467b8ab0026d87fe7867a11d1893919af5568ec1baaa3816d3fa
@@ -50605,4 +50636,4 @@ entries:
     urls:
     - https://github.com/sebastiangaiser/prometheus-community-helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-02-06T10:58:15.349901029Z"
+generated: "2025-02-06T14:21:39.64024496Z"
