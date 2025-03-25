@@ -26990,6 +26990,33 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.12.0
+    created: "2025-03-25T15:51:45.346257585Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: c3fbccab3e14f4b931551db83be15a822bab407f2612cb3bf76ff5a1d2e72291
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+      url: https://github.com/mattiasgees
+    - name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+      url: https://github.com/hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - https://github.com/sebastiangaiser/prometheus-community-helm-charts/releases/download/prometheus-adapter-4.14.0/prometheus-adapter-4.14.0.tgz
+    version: 4.14.0
+  - apiVersion: v1
+    appVersion: v0.12.0
     created: "2025-03-25T15:47:41.975326943Z"
     description: A Helm chart for k8s prometheus adapter
     digest: b575508190c819a8ddf235dfcff3ca3d6ed110ad03d0937508db767a75c199dc
@@ -52535,4 +52562,4 @@ entries:
     urls:
     - https://github.com/sebastiangaiser/prometheus-community-helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-03-25T15:47:45.043904168Z"
+generated: "2025-03-25T15:51:45.348181139Z"
